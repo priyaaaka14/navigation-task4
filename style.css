@@ -1,0 +1,81 @@
+
+.navbar{
+    background-color: pink;
+    padding: 25px;
+}
+
+.navbar ul{
+	display: inline;
+
+}
+
+.navbar li{
+	display: inline;
+	margin-left: 50px;
+	font-size: 20px;
+}
+.navbar a{
+	text-decoration: none;
+	color:blue;
+	padding: 15px;
+	
+}
+.navbar a:hover{
+	background-color:blue;
+	color:pink;
+
+}
+.submenu-1{
+	display: none;
+}
+.navbar li:hover .submenu-1{
+	display: block;
+	position:absolute;
+	background-color: pink;
+	margin-left: 180px;
+	margin-top:20px;
+}
+.navbar li:hover .submenu-1 ul{
+	display: inline;
+	padding: 0px;
+	line-height: 2em;
+}
+.navbar li:hover .submenu-1 ul li{
+	display: inline;
+	font-size: 16px;
+	margin: 0px;
+
+
+}
+.navbar li:hover .submenu-1 ul li a{
+	color:black;
+}
+
+.navbar li:hover .submenu-1 ul li a:hover{
+	color:white;
+}
+.submenu-2{
+	display: none;
+}
+.About:hover .submenu-2{
+	display: block;
+	position: absolute;
+	background-color: pink;
+	margin-left: 150px;
+	margin-top:-50px;
+	width: 130px;
+}
+.display1{
+  text-align: center;
+  display: block;
+  background-color: pink;
+  width: 8em;
+  padding: 5px;
+  margin-left: 28px;
+  margin-top: 15px; 
+}
+.display1:hover{
+	background-color: pink;
+	color: blue;
+}
+	
